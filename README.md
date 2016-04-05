@@ -1,5 +1,6 @@
 # PSP_ExecLoader
 
+Warning: You need kernel mode to run this, All firmwares reject any application running from the memory stick using sceLoadExec. I might just add the pspSdk routines to disintergrate that check. :P
 
 Just for fun, Sample code using sceKernelLoadExec on v1.0.0b (1.00 bogus), because "getcwd" doesn't work for some reason, as the firmware (VSH) doesn't pass the correct arguments.
 
